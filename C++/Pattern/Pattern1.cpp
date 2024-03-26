@@ -5,7 +5,6 @@ output:
      333
 */
 
-
 #include<iostream>
 using namespace std;
 
