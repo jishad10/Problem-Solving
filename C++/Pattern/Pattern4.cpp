@@ -4,7 +4,7 @@ output:
        4 5 6
        7 8 9
 */
-//basic thinking hocce just count ko bo
+//basic thinking hocce just count korbo
 //count er value golo print korteche
 
 #include<iostream>
