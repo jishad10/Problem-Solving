@@ -1,6 +1,6 @@
 /*
 jodi kono value ke 1 theke soro ko re sey value er aag projonto
-kono sokka di e bag jai/rem aase taile prime noy.......
+kono sokka di e bag jai/rem aase taile prime noy...
 */
 
 #include<iostream>
