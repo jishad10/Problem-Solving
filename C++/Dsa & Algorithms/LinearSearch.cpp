@@ -17,7 +17,7 @@ int main(){
 
     int arr[10]= {5,7,34,-5,78,99,848,6,36,23};
 
-    cout<<"Enter a key : ";
+    cout<<"Enter a key: ";
     int key;
     cin>>key;
 
