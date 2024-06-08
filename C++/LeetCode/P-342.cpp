@@ -30,7 +30,7 @@ int main(){
     cin>>num;
 
     Solution sol;
-    int result=sol.isPowerOfFour(num);
+    int result = sol.isPowerOfFour(num);
     if(result){
         cout<<num<<" is a power of four."<<endl;
     }else{
