@@ -2,6 +2,8 @@
 logic hocce index er sob golo value ke xor korbo karon 2 ta
 same asle 0 output  same na asle oi value tai theke jabe
 mani 1^2^3^4...^1 so
+//logic hocce xor kora bcz a^a=0 and 0^a =a
+//mani same value xor korle 0 ase 0 er sathe diff value ta xor korley oi tai asbe
 */
 
 #include<iostream>
