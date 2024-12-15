@@ -1,3 +1,5 @@
+/*greatest common divisor ber korbo hocce just big element theke small element ta minus ko re dibo */
+
 #include<iostream>
 using namespace std;
 
