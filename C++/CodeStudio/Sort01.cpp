@@ -2,24 +2,23 @@
 using namespace std;
 
 void sortOne(int arr[], int n){
-     //left=i , right=j
-     int left =0, right=n-1;
+     //left=i; right=j;
+     int left =0; int right = n-1;
 
-     while(left<right)
-     {
-        while(arr[left] == 0 && left<right)
+     while(left<right){
+
+        if(arr[left] == 0)
         {
             left++;
         }
-        while(arr[right] == 1 && left<right)
+        else if(arr[right] == 1)
         {
             right--;
         }
-        if(left<right)
-        {
-            swap(arr[left], arr[right]);
-            left++;
-            right--;
+        else{
+           swap(arr[left], arr[right]);
+           left++;
+           right--;
         }
      }
 }
