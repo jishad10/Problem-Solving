@@ -33,7 +33,7 @@ int main() {
     Solution sol;
     sol.merge(nums1, m, nums2, n);
 
-    cout << "Merged array: ";
+    cout << "Merged array : ";
     for (int num : nums1) {
         cout << num << " ";
     }
