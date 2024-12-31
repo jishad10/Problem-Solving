@@ -23,6 +23,6 @@ int main(){
     cin>>n;
     Solution sol;
     int result = sol.hammingWeight(n);
-    cout<<"The number of '1' bits in "<<n<<" is: "<<result<< endl;
+    cout<<"The number of '1' bits in " <<n<< " is: "<<result<< endl;
     return 0;
 }
