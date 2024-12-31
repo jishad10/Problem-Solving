@@ -51,7 +51,7 @@ int main() {
     vector<vector<int>> result = solution.threeSum(nums);
 
     // Print the result
-    cout << "Triplets that sum to zero are:" << endl;
+    cout << "Triplets that sum to zero ares:" << endl;
     for (const auto& triplet : result) {
         cout << "[";
         for (size_t i = 0; i < triplet.size(); i++) {
