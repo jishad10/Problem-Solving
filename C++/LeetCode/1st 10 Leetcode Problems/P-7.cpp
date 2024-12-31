@@ -16,7 +16,7 @@ public:
 
             int digit = x%10;
 
-            if(( ans>INT_MAX/10 ) || (ans<INT_MIN/10)) //ans ke 10 dara mul kortechi,so int_max paite hoile 10 dara div korte.........
+            if(( ans>INT_MAX/10 ) || (ans<INT_MIN/10)) //ans ke 10 dara mul kortechi,so int_max paite hoile 10 dara div korte.......
             {
                 return 0;
             }
