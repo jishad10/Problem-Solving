@@ -28,7 +28,7 @@ int main() {
 
     vector<int> duplicates = solution.findDuplicates(nums);
 
-    cout << "Duplicates found: ";
+    cout << "Duplicates found : ";
     for (int num : duplicates) {
         cout << num << " ";
     }
