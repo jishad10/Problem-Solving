@@ -63,7 +63,7 @@ int main() {
     // Create a Solution object
     Solution sol;
 
-    // Call the spiralOrder function
+    // Call the spiralOrders function
     vector<int> result = sol.spiralOrder(matrix);
 
     // Print the result
