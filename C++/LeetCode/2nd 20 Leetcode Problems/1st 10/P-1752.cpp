@@ -42,7 +42,7 @@ int main() {
     vector<int> nums3 = {1, 2, 3};
     cout << "Test Case 3: " << (solution.check(nums3) ? "True" : "False") << endl;
 
-    // Test case 4
+    // Test cases 4
     vector<int> nums4 = {1, 1, 1};
     cout << "Test Case 4: " << (solution.check(nums4) ? "True" : "False") << endl;
 
