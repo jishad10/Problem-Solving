@@ -27,7 +27,6 @@ int main() {
 
     reverseArray(arr, m);
 
-
     cout << "Array after reversal: ";
     for (int num : arr)
     {
