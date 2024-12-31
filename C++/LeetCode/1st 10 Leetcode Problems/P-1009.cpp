@@ -17,7 +17,7 @@ public:
         // Build the mask
         while(m!=0){
             mask =(mask<<1) | 1;
-            m = m>>1; //binary er modde jey khan theke 1 soro sey toko porjonto 1 hobe ...baki golo 0 hobe
+            m = m>>1; //binary er modde jey khan theke 1 soro sey toko porjonto 1 hobe ...baki golo 0 hobee
         }
 
         int ans = (~n)&mask;
