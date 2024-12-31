@@ -38,7 +38,7 @@ int main() {
     Solution solution;
 
     int x;
-    cout << "Enter a number to find its square root: ";
+    cout << "Enter a number to find its square root : ";
     cin >> x;
 
     int result = solution.mySqrt(x);
