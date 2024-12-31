@@ -29,7 +29,7 @@ int main() {
     vector<int> arr = {0, 2, 4, 7, 5, 3, 1};
     int peakIndex = sol.peakIndexInMountainArray(arr);
 
-    cout << "Peak index in the mountain array: " << peakIndex << endl;
+    cout << "Peak index in the mountain array : " << peakIndex << endl;
 
     return 0;
 }
