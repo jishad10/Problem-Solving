@@ -41,7 +41,6 @@ int main() {
     cout << "Enter the target value to search: ";
     cin >> target;
 
-
     bool result = solution.searchMatrix(matrix, target);
 
     if (result) {
