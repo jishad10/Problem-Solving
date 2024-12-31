@@ -32,7 +32,7 @@ int main(){
     Solution sol;
     int result = sol.isPowerOfFour(num);
     if(result){
-        cout<<num<<" is a power of four."<<endl;
+        cout<<num<<" is a power of four."<< endl;
     }else{
         cout<<num<<" is not a power of four."<<endl;
     }
