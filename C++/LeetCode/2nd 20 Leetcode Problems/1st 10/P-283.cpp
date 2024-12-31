@@ -26,7 +26,7 @@ int main() {
     sol.moveZeroes(nums);
 
 
-    cout << "Array after moving zeroes: ";
+    cout << "Array after moving zeroes : ";
     for (int num : nums)
     {
         cout << num << " ";
