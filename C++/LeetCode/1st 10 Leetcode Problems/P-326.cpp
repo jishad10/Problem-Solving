@@ -22,7 +22,7 @@ int main(){
     cin>>n;
 
     Solution sol;
-    int result =sol.isPowerOfThree(n);
+    int result = sol.isPowerOfThree(n);
     if(result){
         cout<<n<<" is a power of three."<<endl;
     } else{
