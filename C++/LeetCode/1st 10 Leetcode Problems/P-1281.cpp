@@ -26,7 +26,7 @@ int main() {
     cin >> n;
     Solution sol;
     int result = sol.subtractProductAndSum(n);
-    cout << "Result: " << result << endl;
+    cout << "Result : " << result << endl;
     return 0;
 }
 
