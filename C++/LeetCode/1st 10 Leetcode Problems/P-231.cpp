@@ -1,6 +1,6 @@
 /*
 logic hocce 2^0 theke 2^30 porjonto er value er sathe n er value
-check korte thakbo
+check korte thakboe
 */
 #include <iostream>
 #include <cmath>
