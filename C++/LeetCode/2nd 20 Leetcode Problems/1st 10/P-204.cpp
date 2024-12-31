@@ -29,7 +29,7 @@ int main() {
     Solution solution;
 
     int n;
-    cout << "Enter a number: ";
+    cout << "Enter a number : ";
     cin >> n;
 
     int result = solution.countPrimes(n);
