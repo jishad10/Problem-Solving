@@ -31,7 +31,7 @@ int main() {
 
     solution.rotate(nums, k);
 
-    cout << "Rotated array: ";
+    cout << "Rotated array : ";
     for (int num : nums) {
         cout << num << " ";
     }
