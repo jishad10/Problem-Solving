@@ -29,7 +29,7 @@ public:
         }
         ans.push_back(count); //final count
 
-        //ans/count er value golo store ko re check same aace kina por por 2 ta
+        //ans/count er value golo store ko re check same aace kinaa por por 2 ta
         sort(ans.begin(), ans.end());
         for(int i=1; i<ans.size(); i++)
         {
