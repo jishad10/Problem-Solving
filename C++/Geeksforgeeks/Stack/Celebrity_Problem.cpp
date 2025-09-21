@@ -4,7 +4,7 @@ using namespace std;
 class Solution
 {
 private:
-    bool knows(vector<vector<int> >& M, int a, int b)
+    bool knows(vector<vector<int>>& M, int a, int b)
     {
         return M[a][b] == 1;
     }
@@ -16,7 +16,7 @@ public:
         int n = M.size();
         stack<int> s;
 
-        // Step 1: Push all elements in stack
+        // Step 1: Push all elements(index) in stack
         for (int i = 0; i < n; i++)
         {
             s.push(i);
@@ -83,4 +83,5 @@ int main()
 
     return 0;
 }
+
 
