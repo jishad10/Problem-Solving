@@ -43,6 +43,9 @@ public:
             int ans = arr[qfront];
             arr[qfront] = -1;
             qfront++;
+
+            // If queue becomes empty after removing → reset qfront and rear to 0.
+            // bcz samner empty space golo jate na thake
             if(qfront==rear){
                 qfront = 0;
                 rear = 0;
@@ -82,4 +85,5 @@ int main() {
 
     return 0;
 }
+
 
