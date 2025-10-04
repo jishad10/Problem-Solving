@@ -20,7 +20,7 @@ public:
     bool enqueue(int value)
     {
         //to check whether queue is full
-        if( (front == 0 && rear == size-1) || (rear == (front-1)%(size-1) ) )
+        if( (front == 0 && rear == size-1) || ((rear + 1) % size == front) )
         {
             cout << "Queue is Full!" << endl;
             return false;
@@ -98,3 +98,4 @@ int main() {
 
     return 0;
 }
+
