@@ -17,7 +17,7 @@ public:
         front = rear = -1;
     }
 
-
+    // circular queue er ulto
     bool pushFront(int x)
     {
         if( isFull() )
@@ -42,6 +42,7 @@ public:
     }
 
 
+    // same as circular queue
     bool pushRear(int x)
     {
         if( isFull() )
@@ -66,6 +67,7 @@ public:
     }
 
 
+    // same as circular queue
     int popFront()
     {
         if(isEmpty())
@@ -93,6 +95,7 @@ public:
     }
 
 
+    // circular queue er ulto
     int popRear()
     {
         if(isEmpty())
@@ -181,4 +184,3 @@ int main() {
 
     return 0;
 }
-
