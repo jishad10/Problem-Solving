@@ -1,4 +1,5 @@
-/*greatest common divisor ber korbo hocce just big element theke small element ta minus ko re dibo */
+/*greatest common divisor ber korbo hocce just big element theke small element ta minus ko re dibo then a!=b na howa porjonto ey loop cholbe */
+/* tai last e a return or b return kora same because a and b 2 tai soman hole loop theke ber hobe */
 
 #include<iostream>
 using namespace std;
