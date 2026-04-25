@@ -1,3 +1,5 @@
+// question link => https://drive.google.com/drive/folders/1TXJAmBCu9x9qkOCo1IpWTC0JOxBVCDdc?usp=drive_link
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -16,10 +18,9 @@ bool isPossible(vector<int> arr, int n, int m, int mid) {
             if(studentCount > m || arr[i] > mid) {
                 return false;
             }
+            // pageSum =0;
+            // pageSum += arr[i];
             pageSum = arr[i];
-        }
-        if(studentCount > m) {
-            return false;
         }
     }
     return true;
